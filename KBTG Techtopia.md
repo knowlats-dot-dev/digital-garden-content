@@ -1,8 +1,17 @@
 ---
 title: KBTG Techtopia
-updated: 2025-09-08T06:22:32+07:00
+updated: 2025-09-13T23:45:33+07:00
+tags:
+  - event
+  - tech
+  - conference
 ---
+
+Posted on facebook: https://www.youtube.com/watch?v=CR3RMlSq18Q
+
 สรุปในแบบของไอซ์ที่ไป KBTG Techtopia วันนี้ (จดเร็ว ๆ)
+
+KBTG Techtopia เป็น Tech conference ของ KBTG ที่จะจัดขึ้นทุกปี ปีนี้เน้นเรื่อง [[AI]]
 
 มาช้าไม่ทัน session แรก แต่ทันช่วงสัมภาษณ์ Andrew Ng
 
@@ -20,12 +29,26 @@ updated: 2025-09-08T06:22:32+07:00
 
 นอกจาก session หลักยังมี community circle ไปรวมตัวฟัง speaker พูดและถามตอบแลกเปลี่ยนความรู้กันอย่างใกล้ชิด หัวข้อน่าสนใจไม่แพ้กับ session หลักเลย เช่น
 
-- How to Survive the Al Apocalypse? Life, Philosophy and Practical Skills โดย Data Rookie - เสียดายเข้าไม่ทัน ตอนนั้นรอข้าวกลางวันอยู่ โชคดีมีคนสรุปให้อ่านแล้วที่ [https://www.facebook.com/share/p/19aUeRGHyr/](https://www.facebook.com/DataEchooo/posts/pfbid02nDKmsJEzM847YM3JPd4awmLUXk5HNwRdBhyQU4XVxLe48oar367zLsfkbXe5nTcHl?__cft__[0]=AZUr4opRjnP3ztN0mvVM9fBbiZZey52LZUrXXKXgnc94uVaV_FV4-qsjnEpDGsq2feH_GbrptDpaL46mhOCbc3VkPt3KVj1_mE1QiYDem2jkRu23pq2-_tNB3JOyDl2nls6SrNB0tduKTfTrDtfvPDt8DK-r_wgYw7K-jzwUgQaFYg&__tn__=-UK-R) (บังเอิญเสิชเจอ)
+- How to Survive the Al Apocalypse? Life, Philosophy and Practical Skills โดย Data Rookie - เสียดายเข้าไม่ทัน ตอนนั้นรอข้าวกลางวันอยู่ โชคดีมีคนสรุปให้อ่านแล้วที่ [https://www.facebook.com/share/p/19aUeRGHyr/](https://www.facebook.com/share/p/19aUeRGHyr/) (บังเอิญเสิชเจอ)
 
-- Managing Knowledge Publicly: Unlocking Unexpected Growth โดยพี่ไท และน้องภูมิ = จดโน้ตเก็บความรู้ยังไงให้มีประสิทธิภาพ สรุปมี 3 วิธีที่ทำได้คือ ทำเป็น Second Brain, Share in Public, และ Digital Garden 3 รูปแบบนี้ไม่มีสูตรตายตัว สามารถ Apply ทำเป็นแบบของเราได้เลย มี Keyword และตัวอย่างที่ทำด้วยใน [https://grtn.org/c](https://l.facebook.com/l.php?u=https%3A%2F%2Fgrtn.org%2Fc%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExeVVselFjOTZKczRhOTJjOQEe8vchf2oalnBsNNU1g8kiN3rHbZfEYWKuAg8ZCgtdvnpYzJ3zeeJe0-gOaas_aem_9yh4nPB9mV-Bak9NXtZfeg&h=AT3977t9SapUCr-BfxuG_tatnCdCrAtNH57B_cv3EkTAl387HkZyaJxfztysDkcBwkTnfwIdoJkMsunMUMtr_BZkRDM5qJjOL-yoYgSl6YaVS9C6I8X-_iWhEt1W3eH_lQ2TZHWoAw6DNcdF&__tn__=-UK-R&c[0]=AT20OSps27X89eM3i2f2d_5gI9dTm17aRag3jDVruKKYsAYgXUOZMVXLGFELXPBZvrI3rGW5Gbc_xAF9f7wIfsZheN0_0XqmR2ZzYMsAyRtbTB47d20236wHJfHD26ILSZQD8F7H14MPuiScl8JzkWl0YbF07VvPh7gCiF-f5fkO_TRFWog) (ลิงก์มาจากสไลด์ที่พี่เค้าทำ) ฟังแล้วอยากใช้ Obsidian เลย เพราะตอนนี้เรายังใช้ Notion และมี pain เรื่องการจัดหมวดหมู่โน้ตเพราะ Notion เป็น folder-page Based ทำให้การ manage โน้ตไม่ flexible เท่าไหร่ สุดท้ายจัดไม่ถูก = เละ (บางทีเราอาจไม่เหมาะกับโครงสร้างแบบนี้ก็ได้)
+- Managing Knowledge Publicly: Unlocking Unexpected Growth โดยพี่ไท และน้องภูมิ = จดโน้ตเก็บความรู้ยังไงให้มีประสิทธิภาพ สรุปมี 3 วิธีที่ทำได้คือ ทำเป็น [[Second Brain]], [[Share in Public]], และ [[Digital Garden]] 3 รูปแบบนี้ไม่มีสูตรตายตัว สามารถ Apply ทำเป็นแบบของเราได้เลย มี Keyword และตัวอย่างที่ทำด้วยใน [https://grtn.org/c](https://grtn.org/c) (ลิงก์มาจากสไลด์ที่พี่เค้าทำ) ฟังแล้วอยากใช้ [[Obsidian]] เลย เพราะตอนนี้เรายังใช้ Notion และมี pain เรื่องการจัดหมวดหมู่โน้ตเพราะ Notion เป็น folder-page Based ทำให้การ manage โน้ตไม่ flexible เท่าไหร่ สุดท้ายจัดไม่ถูก = เละ (บางทีเราอาจไม่เหมาะกับโครงสร้างแบบนี้ก็ได้)
 
 - Why Inclusion in Tech Isn't Just a Nice-to-Have โดย พี่ฝน Women Techmakers Bangkok = พูดถึง Bias อยู่ในตัว AI ที่เรียกว่า Unfair Bias ทำให้เกิดการแบ่งแยกทางเชื้อชาติ เพศ เงินเดือนฐานะ ประสบการณ์ชีวิต เป็นต้น ถ้าปล่อยไว้มันจะเกิดปัญหา เช่น ถูกปัดตกการสมัครงาน ให้เครดิตไม่เท่ากัน เจนรูปอาชีพในอิมเมจที่ชินตามากเกินไป ทำให้เกิด Bias มากกว่าเดิมได้ (ค้นหารูปหมอได้รูปหมอเป็นผู้ชายหมดเลย) วิธีแก้คือ ตอนใช้ AI ให้รวมข้อมูลที่แตกต่างให้บาลานช์กัน และตอนทดสอบการให้ใช้คนที่มีความแตกต่างกันมาทดสอบด้วย เช่น ทำ chat bot ปรึกษาให้คำแนะนำเกี่ยวกับจิตวิทยา ให้ user ที่ทดสอบมีทั้งผู้หญิงและผู้ชาย
 
 เวลาที่เหลือก็มีให้วิ่งหา Stamp สะสมในแอป Coral มีทั้งสะสมตามเวที ตามบูทของ Partner และสะสมกับคนเข้าร่วมในงาน ทุกคนที่เข้าร่วมจะมีสีเป็นของตัวเอง เป็นแบบขบวนการเรนเจอร์เลย เราเป็นตัวสีขาว เราต้องหาคนสีที่ไม่ใช่สีขาวจับมาสแกนเพื่อสะสม Stamp หลังจากดักสแกนจนครบ 6 คนเราก็ได้กระบอกน้ำมา
 
 มีบูทให้ละเลงสีบนผืนผ้าใบยักษ์ด้วยนะ เราได้มีช่วยลงสีพื้นหลังนิดนึง ปลุกไฟหัวใจศิลป์ซะหน่อย
+
+
+![[541400094_25062408073344259_3694870588592482211_n.jpg]]
+
+![[540758071_25062408223344244_8988999071093284296_n.jpg]]
+
+![[541638543_25062408366677563_2939196887655877972_n.jpg]]
+
+![[541762324_25062408570010876_8162622976696229360_n.jpg]]
+
+![[540711033_25062408933344173_1789194612159271138_n.jpg]]
+
+
+รวม Quote ที่มาจากงานนี้ https://www.facebook.com/KBTGLive/posts/pfbid02XEtXHZhxfntBrijtc2uNGFLZyQynwd3hM2mFWet93hvEUHT9yrvS8THPrAEG3apwl
