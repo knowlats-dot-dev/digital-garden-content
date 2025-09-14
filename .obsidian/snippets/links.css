@@ -1,0 +1,13 @@
+.data-link-text[data-link-title]
+{
+    font-size: 0px;
+    visibility: hidden;
+    font-weight: bold;
+}
+
+.data-link-text[data-link-title]::before
+{
+    font-size: 16px;
+    content: attr(data-link-title);
+    visibility: visible;
+}

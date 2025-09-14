@@ -1,17 +1,16 @@
 ---
-title: KBTG Techtopia
-updated: 2025-09-13T23:45:33+07:00
+title: "Event: KBTG Techtopia"
+updated: 2025-09-15T01:19:04+07:00
 tags:
   - event
   - tech
   - conference
 ---
-
 Posted on facebook: https://www.youtube.com/watch?v=CR3RMlSq18Q
 
 สรุปในแบบของไอซ์ที่ไป KBTG Techtopia วันนี้ (จดเร็ว ๆ)
 
-KBTG Techtopia เป็น Tech conference ของ KBTG ที่จะจัดขึ้นทุกปี ปีนี้เน้นเรื่อง [[AI]]
+KBTG Techtopia เป็น [[event]] ประเภท Tech conference ของ KBTG ที่จะจัดขึ้นทุกปี ปีนี้เน้นเรื่อง [[AI]]
 
 มาช้าไม่ทัน session แรก แต่ทันช่วงสัมภาษณ์ Andrew Ng
 
@@ -31,7 +30,7 @@ KBTG Techtopia เป็น Tech conference ของ KBTG ที่จะจั
 
 - How to Survive the Al Apocalypse? Life, Philosophy and Practical Skills โดย Data Rookie - เสียดายเข้าไม่ทัน ตอนนั้นรอข้าวกลางวันอยู่ โชคดีมีคนสรุปให้อ่านแล้วที่ [https://www.facebook.com/share/p/19aUeRGHyr/](https://www.facebook.com/share/p/19aUeRGHyr/) (บังเอิญเสิชเจอ)
 
-- Managing Knowledge Publicly: Unlocking Unexpected Growth โดยพี่ไท และน้องภูมิ = จดโน้ตเก็บความรู้ยังไงให้มีประสิทธิภาพ สรุปมี 3 วิธีที่ทำได้คือ ทำเป็น [[Second Brain]], [[Share in Public]], และ [[Digital Garden]] 3 รูปแบบนี้ไม่มีสูตรตายตัว สามารถ Apply ทำเป็นแบบของเราได้เลย มี Keyword และตัวอย่างที่ทำด้วยใน [https://grtn.org/c](https://grtn.org/c) (ลิงก์มาจากสไลด์ที่พี่เค้าทำ) ฟังแล้วอยากใช้ [[Obsidian]] เลย เพราะตอนนี้เรายังใช้ Notion และมี pain เรื่องการจัดหมวดหมู่โน้ตเพราะ Notion เป็น folder-page Based ทำให้การ manage โน้ตไม่ flexible เท่าไหร่ สุดท้ายจัดไม่ถูก = เละ (บางทีเราอาจไม่เหมาะกับโครงสร้างแบบนี้ก็ได้)
+- Managing Knowledge Publicly: Unlocking Unexpected Growth โดยพี่ไท และน้องภูมิ = จดโน้ตเก็บความรู้ยังไงให้มีประสิทธิภาพ สรุปมี 3 วิธีที่ทำได้คือ ทำเป็น [[Second Brain]], [[Share in Public]], และ [[Digital Garden]] 3 รูปแบบนี้ไม่มีสูตรตายตัว สามารถ Apply ทำเป็นแบบของเราได้เลย มี Keyword และตัวอย่างที่ทำด้วยใน [https://grtn.org/c](https://grtn.org/c) (ลิงก์มาจากสไลด์ที่พี่เค้าทำ) ฟังแล้วอยากใช้ [[obsidian]] เลย เพราะตอนนี้เรายังใช้ Notion และมี pain เรื่องการจัดหมวดหมู่โน้ตเพราะ Notion เป็น folder-page Based ทำให้การ manage โน้ตไม่ flexible เท่าไหร่ สุดท้ายจัดไม่ถูก = เละ (บางทีเราอาจไม่เหมาะกับโครงสร้างแบบนี้ก็ได้)
 
 - Why Inclusion in Tech Isn't Just a Nice-to-Have โดย พี่ฝน Women Techmakers Bangkok = พูดถึง Bias อยู่ในตัว AI ที่เรียกว่า Unfair Bias ทำให้เกิดการแบ่งแยกทางเชื้อชาติ เพศ เงินเดือนฐานะ ประสบการณ์ชีวิต เป็นต้น ถ้าปล่อยไว้มันจะเกิดปัญหา เช่น ถูกปัดตกการสมัครงาน ให้เครดิตไม่เท่ากัน เจนรูปอาชีพในอิมเมจที่ชินตามากเกินไป ทำให้เกิด Bias มากกว่าเดิมได้ (ค้นหารูปหมอได้รูปหมอเป็นผู้ชายหมดเลย) วิธีแก้คือ ตอนใช้ AI ให้รวมข้อมูลที่แตกต่างให้บาลานช์กัน และตอนทดสอบการให้ใช้คนที่มีความแตกต่างกันมาทดสอบด้วย เช่น ทำ chat bot ปรึกษาให้คำแนะนำเกี่ยวกับจิตวิทยา ให้ user ที่ทดสอบมีทั้งผู้หญิงและผู้ชาย
 

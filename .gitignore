@@ -1,7 +1,8 @@
 # Obsidian vault configuration
 /.obsidian/*
+!/.obsidian/snippets/
 !/.obsidian/app.json
-# !/.obsidian/appearance.json
+!/.obsidian/appearance.json
 # !/.obsidian/community-plugins.json
 # !/.obsidian/core-plugins.json
 !/.obsidian/templates.json
