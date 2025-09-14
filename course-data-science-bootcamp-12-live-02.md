@@ -1,6 +1,6 @@
 ---
 title: "Course: Data Science Bootcamp #12 -Live 02 – Prompt Engineering ft. Gemini"
-updated: 2025-09-15T02:04:47+07:00
+updated: 2025-09-15T02:44:27+07:00
 tags:
 ---
 
@@ -64,7 +64,7 @@ Work harder on yourself -jim rohn
 
 “Your world is your playground” - สร้างธุรกิจที่ไปไกลในโลก
 
-## ช่วงสอง การออกแบบ Prompt
+## ช่วงสอง ออกแบบ Prompt
 
 [[prompt-engineering]]
 
@@ -72,3 +72,5 @@ Work harder on yourself -jim rohn
 
 1.      Prompt
 2.      Data
+
+ช่วงต่อไป คือแนะนำ Feature [[gemini]]

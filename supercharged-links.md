@@ -1,5 +1,5 @@
 ---
-title: "Obsidian: Supercharged Links"
+title: "Obsidian Plugin: Supercharged Links"
 updated: 2025-09-15T02:23:47+07:00
 tags:
   - note
