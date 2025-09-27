@@ -1,6 +1,6 @@
 ---
 title: "Course: Data Science Bootcamp #12 -Live 02 – Prompt Engineering ft. Gemini"
-updated: 2025-09-15T02:44:27+07:00
+updated: 2026-02-23T18:34:20+07:00
 tags:
 ---
 

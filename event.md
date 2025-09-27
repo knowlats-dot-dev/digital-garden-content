@@ -1,9 +1,10 @@
 ---
-title: Event
-updated: 2025-09-15T01:19:20+07:00
+title: Events
+updated: 2025-09-15T11:55:04+07:00
 tags:
-  - event
 ---
 ## 2025
+
+### September
 
 -  [[event-kbtg-techtopia]]
