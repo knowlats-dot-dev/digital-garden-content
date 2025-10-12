@@ -1,20 +1,20 @@
 ---
 title: Top Page
-updated: 2025-09-28T20:19:06+07:00
+updated: 2026-02-23T17:04:38+07:00
 tags:
 ---
 
 ## Pages
 
-- [[event]]
-- [[course]]
+- [[books|Books]]
+- [[event|Events]]
+- [[course|Courses]]
 
 ## Main Topics
 
+- [[tools|Tools]]
 - [[AI]]
 - [[Data Science]]
 - [[Second Brain]]
-- [[Digital Garden]]
 - [[Obsidian]]
-- [[React]]
-- [[javascript]]
+- [[javascript|Javascript]]

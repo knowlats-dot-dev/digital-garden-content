@@ -1,7 +1,11 @@
 ---
 title: "Course: Data Science Bootcamp #12 - Live 03 – Building a Second Brain"
-updated: 2025-09-15T01:45:28+07:00
+updated: 2026-02-23T14:43:50+07:00
 tags:
+  - bootcamp
+  - course
+  - data-science
+  - note
 ---
 ## Intro
 

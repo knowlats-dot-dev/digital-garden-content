@@ -1,9 +1,9 @@
 ---
 title: Javascript
-updated: 2025-09-28T20:20:56+07:00
+updated: 2026-02-23T17:33:24+07:00
 tags:
 ---
 
-## How to:
-- [[css-vars-to-ts-vars]]
+- [[next-js]]
+- [[css-vars-to-ts-vars|CSS vars to TS vars]]
 - 
