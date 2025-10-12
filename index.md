@@ -1,6 +1,6 @@
 ---
 title: Top Page
-updated: 2025-09-15T13:25:36+07:00
+updated: 2025-09-28T20:19:06+07:00
 tags:
 ---
 
@@ -16,4 +16,5 @@ tags:
 - [[Second Brain]]
 - [[Digital Garden]]
 - [[Obsidian]]
-- [[Javascript]]
+- [[React]]
+- [[javascript]]
