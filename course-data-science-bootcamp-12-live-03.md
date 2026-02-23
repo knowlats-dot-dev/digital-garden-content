@@ -18,7 +18,7 @@ Small data = why
 - 2
 - 3
 
-## Building a [[Second Brain]]
+## Building a [[second-brain]]
 
 Focus
 1. The foundation

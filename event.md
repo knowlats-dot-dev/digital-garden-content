@@ -7,4 +7,4 @@ tags:
 
 ### September
 
--  [[event-kbtg-techtopia]]
+-  [[event-kbtg-techtopia|Event: KBTG Techtopia]]
