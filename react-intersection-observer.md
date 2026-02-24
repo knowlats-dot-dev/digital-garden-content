@@ -1,9 +1,8 @@
 ---
 title: Intersection Observer in React
-updated: 2026-02-24T16:01:33+07:00
+updated: 2026-02-24T16:12:51+07:00
 tags:
   - javascript
-  - tools
 ---
 Mostly, I use `IntersectionObserver` to check whether the element is in the viewpoint (the view which is currently display on the browser)
 

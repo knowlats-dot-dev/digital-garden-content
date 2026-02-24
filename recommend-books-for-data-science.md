@@ -1,8 +1,9 @@
 ---
 title: Recommend Books for Data Science
-updated: 2026-02-24T15:28:45+07:00
+updated: 2026-02-24T16:36:22+07:00
 tags:
   - book
+  - data-science
 ---
 # [[books|Books]] List
 
