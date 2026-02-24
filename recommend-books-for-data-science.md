@@ -1,10 +1,10 @@
 ---
 title: Recommend Books for Data Science
-updated: 2026-02-23T17:44:54+07:00
+updated: 2026-02-24T15:28:45+07:00
 tags:
   - book
 ---
-[[books|Books]] List
+# [[books|Books]] List
 
 - [How to better at (almost) everything](https://www.amazon.com/How-Be-Better-Almost-Everything/dp/194688541X) by Pat Flynn (ชื่อไทย: วิถีผู้ชนะฉบับคนเก่งแบบเป็ด)
 ![[book_how_to_be_better_at_almost_everything.png]]
