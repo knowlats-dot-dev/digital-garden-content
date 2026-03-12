@@ -1,6 +1,6 @@
 ---
 title: Storybook
-updated: 2026-02-27T12:06:35+07:00
+updated: 2026-03-11T11:32:01+07:00
 tags:
   - storybook
   - react
@@ -11,4 +11,5 @@ tags:
 
 ## Topics
 
+- [[setup-storybook-with-vitest-in-nextjs-project]]
 - [[running-storybook-stories-contains-next.js-hooks|Running Storybook Stories contains Hooks of Next.js]]
