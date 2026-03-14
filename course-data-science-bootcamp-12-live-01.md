@@ -1,6 +1,6 @@
 ---
 title: "Course: Data Science Bootcamp #12 -Live 01 –Intro to Data Science"
-updated: 2026-03-14T23:13:07+07:00
+updated: 2026-03-14T23:14:42+07:00
 tags:
   - bootcamp
   - course
@@ -273,3 +273,5 @@ https://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram
 
 
 ## บริษัทไม่ได้ต้องการ Data  เขาต้องการ Insight
+
+![[Screenshot 2026-03-14 213159.png]]
