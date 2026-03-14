@@ -1,22 +1,13 @@
 ---
 title: "Course: Data Science Bootcamp #12 - Live 03 – Building a Second Brain"
-updated: 2026-02-23T14:43:50+07:00
+updated: 2026-03-14T21:39:54+07:00
 tags:
   - bootcamp
   - course
   - data-science
   - note
 ---
-## Intro
-
-Big data = what
-
-Small data = why
-
-3 case study
-- 1
-- 2
-- 3
+Part of [[course-data-science-bootcamp-12]]
 
 ## Building a [[second-brain]]
 

@@ -1,13 +1,13 @@
 ---
 title: "Course: Data Science Bootcamp #12 -Live 02 – Prompt Engineering ft. Gemini"
-updated: 2026-02-23T18:38:36+07:00
+updated: 2026-03-14T20:57:11+07:00
 tags:
   - data-science
   - bootcamp
   - course
   - note
 ---
-
+Part of [[course-data-science-bootcamp-12]]
 ## ช่วงแรก สอน mindset
 
 วิธีเอาตัวรอดจากยุค [[AI]] ครองโลก
@@ -64,11 +64,15 @@ Work harder on yourself -jim rohn
 
 ## ช่วงสอง ออกแบบ Prompt
 
-[[prompt-engineering|Prompt Engineering]]
-
 อะไรที่ทำให้เราได้ Response ที่ดีกว่าคนอื่น
+
+เราต้องส่ง
 
 1.      Prompt
 2.      Data
 
-ช่วงต่อไป คือแนะนำ Feature [[gemini|Gemini]]
+ที่ดีกว่าให้ AI
+
+ใช้ความรู้ที่เรียกว่า [[prompt-engineering|Prompt Engineering]]
+
+ ในคลาสจะใช้ [[gemini|Gemini]]

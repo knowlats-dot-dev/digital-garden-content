@@ -14,7 +14,7 @@ tags:
 
 - [[tools|Tools]]
 - [[AI]]
-- [[Data Science]]
+- [[data-science]]
 - [[second-brain]]
 - [[Obsidian]]
 - [[javascript|Javascript]]
