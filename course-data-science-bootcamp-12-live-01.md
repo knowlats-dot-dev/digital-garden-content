@@ -7,7 +7,7 @@ tags:
   - data-science
   - note
 ---
-Part of [[course-data-science-bootcamp-12]]
+Part of [[course-data-science-bootcamp-12|Course: Data Science Bootcamp #12]]
 # การเรียนรู้คลาสนี้
 
 ## Rule No.1

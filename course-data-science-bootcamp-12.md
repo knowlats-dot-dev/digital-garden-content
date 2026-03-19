@@ -1,6 +1,6 @@
 ---
 title: "Course: Data Science Bootcamp #12"
-updated: 2026-02-22T16:21:04+07:00
+updated: 2026-03-17T16:33:57+07:00
 tags:
   - course
   - bootcamp
@@ -13,7 +13,7 @@ tags:
 
 Contains About:
 
-- [[data-science]]
+- [[data-science|Data Science]]
 - [[AI]]
 - How to learn by yourself
 
@@ -35,3 +35,4 @@ List of short note:
 - [[course-data-science-bootcamp-12-live-01|Course: Data Science Bootcamp #12 -Live 01 –Intro to Data Science]]
 - [[course-data-science-bootcamp-12-live-02|Course: Data Science Bootcamp #12 -Live 02 – Prompt Engineering ft. Gemini]]
 - [[course-data-science-bootcamp-12-live-03|Course: Data Science Bootcamp #12 - Live 03 – Building a Second Brain]]
+- [[sprint-01-google-sheet]]
