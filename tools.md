@@ -1,6 +1,6 @@
 ---
 title: Tools
-updated: 2026-03-19T23:34:56+07:00
+updated: 2026-03-23T14:09:23+07:00
 ---
 - [[linux|Linux Commands]]
 - [[git|Git]]
