@@ -5,7 +5,7 @@ tags:
 ---
 Gemini is a [[AI]] application developed by Google
 
-ทำไม Gemini เป็นตัวเลือกที่ดี จากพี่ทอย ที่สอน [[course-data-science-bootcamp-12]]
+ทำไม Gemini เป็นตัวเลือกที่ดี จากพี่ทอย ที่สอน [[course-data-science-bootcamp-12|Course: Data Science Bootcamp #12]]
 เพรา**ะมี Ecosystem ที่ Strong** 
 
 - เราสามารถสั่งให้ Gemini ส่ง Gmail หรือเซฟข้อมูลผ่าน Drive ได้

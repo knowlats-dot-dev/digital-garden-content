@@ -13,7 +13,7 @@ tags:
 
 Contains About:
 
-- [[data-science]]
+- [[data-science|Data Science]]
 - [[AI]]
 - How to learn by yourself
 

@@ -1,13 +1,26 @@
-.data-link-text[data-link-title]
+/* In reading view, hide link content */
+.markdown-reading-view .data-link-text[data-link-title]
 {
     font-size: 0px;
     visibility: hidden;
-    font-weight: bold;
 }
 
-.data-link-text[data-link-title]::before
+/* In reading view, show linked title */
+.markdown-reading-view .data-link-text[data-link-title]::before
 {
     font-size: 16px;
-    content: attr(data-link-title);
+    content: "> " attr(data-link-title);
     visibility: visible;
+}
+
+
+/* In reading view, if there is aria-label/ tool-tip show normal link text */
+.markdown-reading-view .data-link-text[aria-label]
+{
+    font-size: 16px;
+}
+/* In reading view, if there is aria-label/ tool-tip hide title  */
+.markdown-reading-view .data-link-text[aria-labe]::before
+{
+    content: none;
 }

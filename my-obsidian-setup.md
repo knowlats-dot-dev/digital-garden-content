@@ -1,12 +1,12 @@
 ---
 title: My Obsidian Setup
-updated: 2025-09-15T02:21:34+07:00
+updated: 2026-03-23T17:11:34+07:00
 tags:
   - note
   - obsidian
 ---
 
-I make this as a [[second-brain]]  and [[Digital Garden]]
+I use this as a [[second-brain|Second Brain]]  and [[Digital Garden]]
 
 Installed Plugins:
 
@@ -14,3 +14,51 @@ Installed Plugins:
 - Frontmatter Modified Date: Update date to editing note automatically. Github: https://github.com/alangrainger/obsidian-frontmatter-modified-date
 - Style Settings - CSS plugin to deco Obsidian, Use together with Supercharged Links. Github: https://github.com/mgmeyers/obsidian-style-settings
 - [[supercharged-links|Obsidian Plugin: Supercharged Links]] - Add style to blacklinks. Github: https://github.com/mdelobelle/obsidian_supercharged_links
+
+
+My Settings:
+
+**Frontmatter Title**
+
+![[Screenshot 2569-03-23 at 14.02.57.png]]
+
+Enable All Features
+
+**Obsidian Plugin: Supercharged Links**
+
+![[Screenshot 2569-03-23 at 14.05.48.png]]
+
+
+And paste file `links.css` in `.obsidian/snippets`
+
+Adapted code from: https://forum.obsidian.md/t/internal-links-that-display-note-title-property-or-any-other/69467
+
+```css
+/* In reading view, hide link content */
+.markdown-reading-view .data-link-text[data-link-title] {
+  font-size: 0px;
+  visibility: hidden;
+}
+
+/* In reading view, show linked title */
+.markdown-reading-view .data-link-text[data-link-title]::before {
+  font-size: 16px;
+  content: "> " attr(data-link-title);
+  visibility: visible;
+}
+
+/* In reading view, if there is aria-label/ tool-tip show normal link text */
+.markdown-reading-view .data-link-text[aria-label] {
+  font-size: 16px;
+}
+/* In reading view, if there is aria-label/ tool-tip hide title  */
+.markdown-reading-view .data-link-text[aria-labe]::before {
+  content: none;
+}
+
+```
+
+
+**Frontmatter Modified Date**
+
+![[Screenshot 2569-03-23 at 14.15.48.png]]

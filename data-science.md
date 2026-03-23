@@ -5,4 +5,4 @@ tags:
 ---
 Course I learned
 
-- [[course-data-science-bootcamp-12]]
+- [[course-data-science-bootcamp-12|Course: Data Science Bootcamp #12]]

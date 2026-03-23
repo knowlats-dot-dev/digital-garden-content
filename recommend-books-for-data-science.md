@@ -5,7 +5,7 @@ tags:
   - book
   - data-science
 ---
-# [[books|Books]] List for [[data-science]]
+# [[books|Books]] List for [[data-science|Data Science]]
 
 - [How to better at (almost) everything](https://www.amazon.com/How-Be-Better-Almost-Everything/dp/194688541X) by Pat Flynn (ชื่อไทย: วิถีผู้ชนะฉบับคนเก่งแบบเป็ด)
 ![[book_how_to_be_better_at_almost_everything.png]]

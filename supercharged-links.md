@@ -1,12 +1,11 @@
 ---
 title: "Obsidian Plugin: Supercharged Links"
-updated: 2025-09-15T02:23:47+07:00
+updated: 2026-03-23T14:46:02+07:00
 tags:
   - note
   - obsidian
 ---
-Supercharged Links is a [[obsidian]] plugin to add style to blacklinks.
+Supercharged Links is a [[obsidian|Obsidian]] plugin to add style to blacklinks. ex. [[my-obsidian-setup|My Obsidian Setup]]
 
-Following setup steps from: https://forum.obsidian.md/t/internal-links-that-display-note-title-property-or-any-other/69467?utm_source=chatgpt.com
-
- More guide: https://www.youtube.com/watch?v=97V7bLj-ysg
+ More guide:
+ - https://www.youtube.com/watch?v=97V7bLj-ysg
