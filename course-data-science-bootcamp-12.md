@@ -20,7 +20,7 @@ Contains About:
 Using Softwares:
 
 - Google Sheets
-- Google Colab
+- Google Collab
 - Google Drive
 - SQLite Online Editor
 - REPLit.com
