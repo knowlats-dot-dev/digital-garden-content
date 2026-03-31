@@ -1,6 +1,6 @@
 ---
 title: Google Sheet
-updated: 2026-03-25T06:59:19+07:00
+updated: 2026-03-31T04:44:49+07:00
 tags:
   - tools
   - data-science
@@ -187,4 +187,148 @@ Formula ที่ใช้ทำงานกับวันที่ก็มี
 
 ## VLOOKUP
 
-หากเรามีตารางสองตารางขึ้นไป แต่ละตารางก็มีข้อมูลเชื่อมกัน เราใช้ VLOOKUP ในการดูข้อมูลข้ามตารางได้
+ถ้าเรามีตารางสองตารางขึ้นไป แต่ละตารางก็มีข้อมูลเชื่อมกัน เราใช้ VLOOKUP ในการดูข้อมูลข้ามตารางได้
+
+
+# 103
+
+## Query
+
+`=QUERY(data, query)`
+
+data = ตาราง ชีท
+query = SQL-like statement e.g. `select A,B,C`
+
+ในส่วนของ Data Set เราสามารถ Control เลื่อนดูข้อมูลได้ โดยกดปุ่ม Ctrl + ลูกศรขึ้นลงซ้ายขวา
+
+กด Ctrl + A เพื่อเลือกข้อมูลทั้งหมดได้
+
+ในการ Query เราต้องเลือกก้อนข้อมูลที่เราจะใช้ ตั้งชื่อเก็บไว้ Menu: Data > Named ranges ตั้งชื่อและกด Done
+
+ในส่วน Query จะมีการเขียนตามนี้ สามารถดูเต็ม ๆ ได้ที่ https://developers.google.com/chart/interactive/docs/querylanguage
+### select
+
+`=QUERY(range, "select A, B, C")
+
+A, B, C คือชื่อคอลัมน์ ต้องเป็นตัวพิมพ์ใหญ่เท่านั้น
+
+ไม่ต้องมี FROM clause (เพราะอ้า่งชื่อตารางมาแล้ว)
+
+### where
+
+ใช้สำหรับ filter ข้อมูลต่าง ๆ ตัวอย่าง `=QUERY(IMDB, "SELECT * WHERE D = 'R' ")`
+
+เราสามารถใช้ LIKE operation ใน where ได้
+
+`=QUERY(customers, "SELECT * WHERE E LIKE '%@gmail.com' ")`
+
+ค้นหาข้อมูลลูกค้าที่มีอีเมล (คอลัมน์ E) gmail.com
+
+`=QUERY(customers, "SELECT * WHERE N LIKE '%n%' ")`
+
+ค้นหาข้อมูลลูกค้าที่มีตัวอักษร n ในคอลัมน์ N (สมมติว่าเป็นคอลัมน์ชื่อ)
+
+`=QUERY(customers, "SELECT * WHERE N LIKE 'J_hn' ")`
+
+ค้นหาข้อมูลลูกต้าที่มีชื่อขึ้นต้นด้วย J ลงท้ายด้วย hn _ แทนตัวอักษรอะไรก็ได้หนึ่งตัว
+
+	% ใช้ match any character
+	_ ใช้ match single character
+
+สามารถใช้ or, and เครื่องหมายต่าง ๆ เช่น >, >=, <. <= ได้หมดเลย
+
+### Filter NULL
+
+ใน Google Sheet NULL คือช่องว่างใน Cell
+
+- `WHERE D is null` คือ เอาเฉพาะค่า NULL
+- `WHRE D is not null` คือ ไม่เอาค่า NULL
+
+### Filter Date
+
+เราสามารถเลือกข้อมูลภายในช่วงเวลาแบบนี้
+
+`=QUERY(employee, "SELECT * WHERE D < date '2022-08-08' ")`
+
+มี date ข้างหน้าตามด้วย 'ปี-เดือน-วัน'
+
+### aggregate functions: avg sum min max count
+
+
+`=QUERY(data, "SELECT AVG(E), SUM(E), MIN(E)")`
+
+จากตัวอย่าง หาค่าเฉลี่ย ผลรวม และค่าน้อยที่สุดในคอลัมน์ E
+
+### group by
+
+จัดกลุ่มข้อมูล เหมาะใช้คู่กับ Agg Function
+
+`=QUERY(IMDB, "SELECT D,AVG(D) GROUP BY D")`
+
+ถ้าอยากใช้ WHERE ด้วยต้องเขียน WHERE ก่อน GROUP BY
+
+`=QUERY(IMDB, "SELECT D, AVG(E) WHERE D = 'R' GROUP BY D")`
+
+
+### order by
+
+เรียงลำดับข้อมูล
+
+`=QUERY(IMDB, "SELECT B, D, E, G ORDER By D, E DESC")`
+
+`DESC` เรียงจากมากไปน้อย
+
+### limit
+
+จำกัดข้อมูลที่จะออกมา
+
+`=QUERY(IMDB, "SELECT A, B, C limit 5")`
+
+จะได้ข้อมูล 5 แถว
+
+### label
+
+เราสามารถเปลี่ยนชื่อคอลัมน์ที่ Query สร้างข้อมูลมาได้
+
+`=QUERY(IMDB, "SELECT A, B, C limit 5 label A 'MOVIE_ID', B 'MOVIE_NAME', C 'YEAR_RELEASED'")`
+
+ตารางที่ออกมาจะมี 3 คอลัมน์ ชื่อจามที่เรากำหนด label
+
+เราสามารถตั้งชื่อคอลัมน์ที่เกิดจาก Agg function ได้ด้วย
+
+`=QUERY(IMDB, "SELECT D, AVG(G) WHERE D is not null GROUP BY D label AVG(G) 'Average Score'")`
+``
+
+### Pivot
+
+คือ Agg function + Group by
+
+จากเดิม
+
+`=QUERY(IMDB, "SELECT D, AVG(G) WHERE D is not null GROUP BY D")`
+
+เป็น
+
+`=QUERY(IMDB, "SELECT AVG(G) PIVOT D")`
+
+Result จะเป็นตารางเรียงข้อมูลในแนวยาว
+
+ถ้าจะใส่ WHERE เขียนด้านหน้า Pivot
+
+`=QUERY(IMDB, "SELECT AVG(G) WHERE D is not null PIVOT D")`
+
+ถ้าเราอยากได้ข้อมูลแนวตั้ง ครอบ Query function ด้วย `TRANSPOSE()`
+
+`=TRANSPOSE(QUERY(IMDB, "SELECT AVG(G) WHERE D is not null PIVOT D"))`
+
+### Dynamic Query
+
+ให้ Query เปลี่ยนไปตามข้อมูลที่มาจาก Cell อื่น 
+
+
+
+# 104
+
+จะเป็นเรื่อง Pivot Table สร้างตารางเพื่อใช้สรุปเป็นรายงาน
+
+[[pivot-table]]
