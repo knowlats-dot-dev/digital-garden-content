@@ -1,6 +1,6 @@
 ---
 title: SQL
-updated: 2026-03-31T05:22:21+07:00
+updated: 2026-04-08T01:01:26+07:00
 tags:
   - database
 ---
@@ -17,5 +17,5 @@ Playground:
 Cheat Sheet:
 https://github.com/BorntoDev/SQL-Cheat-Sheet
 
-
+Related:
 [[sql-for-data-analyst]]
