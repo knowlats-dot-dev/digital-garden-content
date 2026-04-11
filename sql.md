@@ -3,6 +3,7 @@ title: SQL
 updated: 2026-04-08T01:01:26+07:00
 tags:
   - database
+  - backend
 ---
 
 Data Reference:
