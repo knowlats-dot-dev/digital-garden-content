@@ -1,15 +1,18 @@
 ---
 title: Gemini
-updated: 2026-03-13T00:25:08+07:00
+updated: 2026-04-17T13:10:00+07:00
 tags:
 ---
-Gemini is a [[AI]] application developed by Google
+Gemini is a [[ai]] application developed by Google
 
 ทำไม Gemini เป็นตัวเลือกที่ดี จากพี่ทอย ที่สอน [[course-data-science-bootcamp-12|Course: Data Science Bootcamp #12]]
-เพรา**ะมี Ecosystem ที่ Strong** 
+เพราะ
+
+**มี Ecosystem ที่ Strong** 
 
 - เราสามารถสั่งให้ Gemini ส่ง Gmail หรือเซฟข้อมูลผ่าน Drive ได้
-- ใช้ร่วมกับ Google App ได้ เช่น Spreadsheet ใช้สูตร `=AI('...')` เพื่อให้ Gemini ช่วยหาคำตอบใน Sheet นั้นได้
+- ใช้ร่วมกับ Google App ได้ 
+	- Spreadsheet ใช้สูตร `=AI('...')` เพื่อให้ Gemini ช่วยหาคำตอบใน Sheet นั้นได้
 
 Model มีให้เลือก:
 

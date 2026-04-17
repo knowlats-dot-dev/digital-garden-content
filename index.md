@@ -1,6 +1,6 @@
 ---
 title: Top Page
-updated: 2026-03-23T14:09:23+07:00
+updated: 2026-04-18T01:22:52+07:00
 tags:
 ---
 
@@ -12,8 +12,9 @@ tags:
 
 ## Main Topics
 
+- [[programming]]
 - [[tools|Tools]]
-- [[AI]]
+- [[ai]]
 - [[data-science|Data Science]]
 - [[second-brain|Second Brain]]
 - [[Obsidian]]

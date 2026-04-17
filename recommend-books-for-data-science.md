@@ -1,6 +1,6 @@
 ---
 title: Recommend Books for Data Science
-updated: 2026-03-14T20:53:42+07:00
+updated: 2026-04-17T22:33:05+07:00
 tags:
   - book
   - data-science
@@ -14,3 +14,5 @@ tags:
 - [Growth Hacker Marketing](https://www.amazon.com/Growth-Hacker-Marketing-Primer-Advertising-ebook/dp/B00INIXL3O/ref=sr_1_1?dchild=1&keywords=growth+hacker+marketing&qid=1631709173&s=digital-text&sr=1-1) by Ryan Holiday
 - [Naked Statistics](https://www.amazon.com/gp/product/B007Q6XLF2) by Charles Wheelan (ชื่อไทย: สถิติฉบับเซ็กซี่)
 - [Everybody Lie](https://www.amazon.com/Everybody-Lies-Internet-About-Really/dp/0062390856/ref=tmm_hrd_swatch_0)
+- [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
+  ![[Pasted image 20260417223052.png]]

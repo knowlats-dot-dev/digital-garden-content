@@ -1,22 +1,19 @@
 ---
 title: SQL
-updated: 2026-04-08T01:01:26+07:00
+updated: 2026-04-17T13:26:06+07:00
 tags:
-  - database
+  - programming
   - backend
+  - database
 ---
-
-Data Reference:
-
-[W3School](https://www.w3schools.com/sql/)
-
-Playground:
-
-[SQLiterOnline](https://sqliteonline.com/)
-
-
 Cheat Sheet:
 https://github.com/BorntoDev/SQL-Cheat-Sheet
 
-Related:
-[[sql-for-data-analyst]]
+Playground:
+[SQLiteOnline](https://sqliteonline.com/)
+
+
+- [[sql-select]]
+- [[sql-join]]
+- [[sql-set-operation]]
+- [[sql-subquries]]
