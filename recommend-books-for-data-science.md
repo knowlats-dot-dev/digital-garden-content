@@ -1,6 +1,6 @@
 ---
 title: Recommend Books for Data Science
-updated: 2026-04-17T22:33:05+07:00
+updated: 2026-04-19T23:16:43+07:00
 tags:
   - book
   - data-science
@@ -16,3 +16,6 @@ tags:
 - [Everybody Lie](https://www.amazon.com/Everybody-Lies-Internet-About-Really/dp/0062390856/ref=tmm_hrd_swatch_0)
 - [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
   ![[Pasted image 20260417223052.png]]
+- [R for Data Science](https://r4ds.had.co.nz/transform.html)
+    ![[Pasted image 20260419231625.png]]
+- 

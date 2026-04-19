@@ -1,13 +1,11 @@
 ---
 title: R programming
-updated: 2026-04-18T02:12:22+07:00
+updated: 2026-04-20T00:03:11+07:00
 tags:
   - data-science
   - programming
 ---
 Part of [[course-data-science-bootcamp-12]]
-
-[[homework-hands-on-programming-with-r]]
 
 # Why R?
 
@@ -590,12 +588,20 @@ id name
 
 เราจะอ่านไฟล์แบบนี้
 
+โหลด Library `readr`
+
 ```
 library(readr)
+```
 
+วิธีการอ่าน
+
+```
 people <- read_table("file.txt")
 View(people)
 ```
+
+เราจะได้ Data Frame พร้อมใช้งาน
 
 ![[Screenshot 2026-04-18 014140.png]]
 
@@ -611,11 +617,11 @@ id,name
 4,Lisa
 ```
 
+ใช้ Library เดียวกันคือ readr
+
 เราจะอ่านไฟล์แบบนี้
 
 ```
-library(readr)
-
 people <- read_csv("file.csv")
 ```
 
@@ -650,3 +656,141 @@ result[[1]]
 result[[2]]
 result[[3]]
 ```
+
+## Google Sheet
+
+เราต้อง  Share as link 
+
+แล้วโหลด library `googlesheet4`
+
+```
+library(googlesheet4)
+```
+
+ถ้าเป็น Public (คือไม่ต้อง login ก่อนเข้าไปดู) ให้เราเรียกคำสั่ง `gs4_deauth()` ก่อน เพื่อให้ข้ามการ authentation ไป
+
+url ที่ใช้ เราจะตัด `/edit?usp=sharing` หรืออะไรตามหลัง ID ข้างหลัง `/d/` ออก
+
+```
+
+url <- "..."
+sheet_name <- "..."
+
+gs4_deauth()
+
+read_sheet(url, sheet=sheet_name)
+```
+
+## การนำเอาตารางมารวมกัน
+
+เรามีข้อมูลจากหลายที่ ถ้าต้องการรวมกันเป็นก้อนเดียว เช่น เรามีตารางจากหลาย sheet ต้องการเอามารวมเป็นตารางเดียว เราทำได้โดยการใช้คำสั่ง `bind_rows()`
+
+โหลด library ก่อน
+
+```
+library(dplyr)
+```
+
+```
+bind_rows(df1, df2, df3)
+
+## create from list
+df_list <- list(df1, df2, df3)
+full_df <- bind_rows(df_list)
+```
+
+การทำงานของฟังก์ชันนี้เท่ากับ UNION ALL ใน SQL
+##  ต่อคอลัมน์
+
+เราใช้ `bind_cols()` ได้ แต่ข้อควรระวัง คือ ฟังก์ชันนี้จะใช้การต่อตรง ๆ ไม่ได้ดูการเชื่อมโยงของข้อมูล ก่อนใช้ควรให้แน่ใจว่าแต่ละแถวตรงกันหรือยัง
+
+```
+bind_cols(df1, df2)
+```
+
+ถ้าต้องการใช้ join จริง ๆ ต้องเปลี่ยนเป็นฟังก์ชัน
+
+- `inner_join`
+- `left_join`
+- `right_join`
+- `full_join`
+- `anti_join`
+- `semi_join`
+- cross join (ด้วยฟังก์ชัน `tidyr::crossing()`)
+
+ตัวอย่าง
+
+```
+left_join(d1, d2, by="id")
+```
+
+
+## การใช้คำสั่ง SQL กับ Data frame
+
+เราสามารถเล่นคำสั่ง SQL เพื่อจัดการข้อมูลได้ ไม่นับว่าข้อมูลจะต้องมาจาก Database จริง ต่อให้มาจาก txt ไฟล์ ถ้ามาอยู่ในรูปแบบ Data Frame ก็ทำได้
+
+```
+library(sqldf)
+
+// read data
+
+school <- read_csv("school.csv")
+
+school_result <- sqldf("select * from school;")
+
+school_avg_sum <- sqldf("select avg(student), sum(student) from school;")
+
+usa_school <- sqldf("select * from school where country = 'USA';")
+```
+
+## อ่านข้อมูลจาก SQLite
+
+```
+# load library
+library(RSQLite)
+
+# connect to SQLite database(.db file)
+# 1. open connection
+conn < -dbConnect(SQLite(), "chinook.db")
+
+# 2. get data
+dbListTables(conn)
+dbListFields(conn, "customers")
+
+df < -dbGetQuery(conn, "select * from customers where country = 'USA'")
+
+# 3. close connection
+dbDisconnect(conn)
+```
+
+## บันทึกข้อมูลและ Environment ใน R
+
+เราสามารถเซฟทุกอย่างที่ทำงานมาในรูปแบบไฟล์ `.RData` โดยใช้คำสั่ง  `save.images()`
+
+```
+save.images(file="data.RData")
+```
+
+ถ้าจะโหลดมาใช้ก็ใช้คำสั่ง `load()`
+
+```
+load(file="data.RData")
+```
+
+ถ้าต้องการเก็บแค่ก้อนเดียว สามารถนำ Variables เข้าฟังก์ชัน `saveRDS()`
+
+```
+saveRDS(df, file="df_result.rds")
+```
+
+ถ้าจะโหลดก็
+
+```
+loadRDS("df_result.rds")
+```
+
+จบ
+
+# หัวข้อต่อไป
+
+[[data-transformation]]

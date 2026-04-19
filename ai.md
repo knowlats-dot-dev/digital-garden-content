@@ -1,6 +1,6 @@
 ---
 title: AI
-updated: 2026-04-17T13:07:23+07:00
+updated: 2026-04-18T02:16:25+07:00
 tags:
   - tools
 ---
@@ -8,3 +8,5 @@ tags:
 
 
 [[gemini]]
+
+[[prompt-engineering]]

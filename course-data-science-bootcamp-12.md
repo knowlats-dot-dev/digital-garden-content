@@ -1,6 +1,6 @@
 ---
 title: "Course: Data Science Bootcamp #12"
-updated: 2026-04-17T22:42:09+07:00
+updated: 2026-04-19T23:22:41+07:00
 tags:
   - course
   - bootcamp
@@ -30,6 +30,7 @@ Using Softwares:
 
 
 List of short note:
+
 - [[recommend-books-for-data-science|Recommend Books]]
 - [[data-analyst-career-path|Data Analyst Career Path]]
 - [[course-data-science-bootcamp-12-live-01|Course: Data Science Bootcamp #12 -Live 01 –Intro to Data Science]]
@@ -38,7 +39,10 @@ List of short note:
 - [[google-sheet]]
 - [[sql]]
 - [[r-programming]]
+- [[data-transformation]]
 
 
-Homework
-[[homework-hands-on-programming-with-r]]
+Homework:
+
+- [[homework-hands-on-programming-with-r]]
+- [[home-work-r-for-data-science-ch-5]]
