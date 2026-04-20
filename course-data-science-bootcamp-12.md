@@ -1,6 +1,6 @@
 ---
 title: "Course: Data Science Bootcamp #12"
-updated: 2026-04-19T23:22:41+07:00
+updated: 2026-04-20T07:47:37+07:00
 tags:
   - course
   - bootcamp
@@ -8,6 +8,8 @@ tags:
   - data-science
 ---
 # Course: Data Science Bootcamp #12
+
+**Completed**: 75%
 
 [[course|Courses]] by P' Toy (FB Page: Data Rookie)
 
@@ -40,6 +42,8 @@ List of short note:
 - [[sql]]
 - [[r-programming]]
 - [[data-transformation]]
+- [[data-visualization]]
+- [[basic-statistic]]
 
 
 Homework:

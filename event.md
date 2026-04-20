@@ -1,8 +1,14 @@
 ---
 title: Events
-updated: 2025-09-15T11:55:04+07:00
+updated: 2026-04-20T07:56:56+07:00
 tags:
 ---
+## 2026
+
+## April
+
+- [[Event: Intro to Creative Coding with Patchies Workshop]]
+
 ## 2025
 
 ### September
