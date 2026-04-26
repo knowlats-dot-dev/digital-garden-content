@@ -1,6 +1,6 @@
 ---
 title: "Event: KBTG Techtopia"
-updated: 2026-04-17T23:10:34+07:00
+updated: 2026-04-23T05:07:23+07:00
 tags:
   - event
   - tech
