@@ -1,12 +1,15 @@
 ---
 title: My Obsidian Setup
-updated: 2026-03-23T17:11:34+07:00
+updated: 2026-06-29T19:25:23+07:00
 tags:
   - note
   - obsidian
 ---
 
-I use this as a [[second-brain|Second Brain]]  and [[Digital Garden]]
+I use this as a [[second-brain|Second Brain]]  and [[digital-garden]]
+
+[[how-i-take-notes]]
+[[obsidian-workflow]]
 
 Installed Plugins:
 

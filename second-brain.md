@@ -9,5 +9,5 @@ title: Second Brain
 
 **หัวข้อที่เกี่ยวข้อง:**
 
-[[Digital Garden]]
+[[digital-garden]]
 

@@ -1,6 +1,6 @@
 ---
 title: Top Page
-updated: 2026-04-18T01:22:52+07:00
+updated: 2026-06-29T19:24:37+07:00
 tags:
 ---
 
@@ -16,6 +16,7 @@ tags:
 - [[tools|Tools]]
 - [[ai]]
 - [[data-science|Data Science]]
+- [[digital-garden|Digital Garden]]
 - [[second-brain|Second Brain]]
 - [[Obsidian]]
 - [[javascript|Javascript]]
