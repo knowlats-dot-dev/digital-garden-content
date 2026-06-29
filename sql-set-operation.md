@@ -6,7 +6,7 @@ tags:
   - database
   - backend
 ---
-Part of [[sql]]
+Part of [[sql|SQL]]
 
 
 ใน SQL มีคำสั่ง `INTERSECT`, `UNION`, `UNION ALL`, `EXCEPT` ใช้ JOIN ระหว่าง Query `SELECT`

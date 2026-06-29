@@ -5,7 +5,7 @@ tags:
   - data-science
   - programming
 ---
-Part of [[course-data-science-bootcamp-12]]
+Part of [[course-data-science-bootcamp-12|Course: Data Science Bootcamp #12]]
 
 # Why R?
 
@@ -793,4 +793,4 @@ loadRDS("df_result.rds")
 
 # หัวข้อต่อไป
 
-[[data-transformation]]
+[[data-transformation|Data Transformation with R]]

@@ -5,9 +5,9 @@ title: Second Brain
 
 **Concept:**
 
-เขียนใน [[course-data-science-bootcamp-12-live-03]]
+เขียนใน [[course-data-science-bootcamp-12-live-03|Course: Data Science Bootcamp #12 - Live 03 – Building a Second Brain]]
 
 **หัวข้อที่เกี่ยวข้อง:**
 
-[[digital-garden]]
+[[digital-garden|Digital Garden]]
 

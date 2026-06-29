@@ -4,7 +4,7 @@ updated: 2026-03-13T00:22:21+07:00
 tags:
 ---
 
-Prompt Engineering คือ รูปแบบวิธีการ Prompt สั่งให้ [[ai]] ทำงานตามที่ต้องการ
+Prompt Engineering คือ รูปแบบวิธีการ Prompt สั่งให้ [[ai|AI]] ทำงานตามที่ต้องการ
 
 ## มีรูปแบบ (Format) ที่นิยมใช้กัน คือ
 

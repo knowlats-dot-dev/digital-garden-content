@@ -18,4 +18,4 @@ A wiki is a collaboratively edited collection of hyperlinked documents. The term
 
 ## Personal Wiki vs. Public Wiki
 
-This digital garden is a personal wiki — it reflects my thinking rather than a consensus. That's intentional. See [[welcome]] for more on the philosophy.
+This digital garden is a personal wiki — it reflects my thinking rather than a consensus. That's intentional. See [[welcome|Welcome to My Digital Garden]] for more on the philosophy.

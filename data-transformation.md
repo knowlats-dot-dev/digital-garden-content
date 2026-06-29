@@ -7,12 +7,12 @@ tags:
   - course
   - note
 ---
-Part of [[data-science]] and [[course-data-science-bootcamp-12]]
+Part of [[data-science|Data Science]] and [[course-data-science-bootcamp-12|Course: Data Science Bootcamp #12]]
 # What is Data Transformation
 
 **Data Transformation** is the process of **converting data** from one format/structure -> another format/structure
 
-เราจะใช้ [[r-programming]]
+เราจะใช้ [[r-programming|R programming]]
 
 ในภาษา R เราจะใช้ Package `dplyr` ช่วย
 

@@ -7,9 +7,9 @@ tags:
   - note
 ---
 
-Part of [[course-data-science-bootcamp-12]]
+Part of [[course-data-science-bootcamp-12|Course: Data Science Bootcamp #12]]
 
-And [[data-science]]
+And [[data-science|Data Science]]
 
 # Research Design
 

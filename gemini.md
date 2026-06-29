@@ -3,7 +3,7 @@ title: Gemini
 updated: 2026-04-17T13:10:00+07:00
 tags:
 ---
-Gemini is a [[ai]] application developed by Google
+Gemini is a [[ai|AI]] application developed by Google
 
 ทำไม Gemini เป็นตัวเลือกที่ดี จากพี่ทอย ที่สอน [[course-data-science-bootcamp-12|Course: Data Science Bootcamp #12]]
 เพราะ

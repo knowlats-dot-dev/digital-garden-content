@@ -5,10 +5,10 @@ tags:
 ---
 Language
 
-- [[sql]]
-- [[r-programming]]
+- [[sql|SQL]]
+- [[r-programming|R programming]]
 
 
 Subject:
 
-- [[creative-coding]]
+- [[creative-coding|Creative Coding]]

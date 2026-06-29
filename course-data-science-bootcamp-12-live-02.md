@@ -10,7 +10,7 @@ tags:
 Part of [[course-data-science-bootcamp-12|Course: Data Science Bootcamp #12]]
 ## ช่วงแรก สอน mindset
 
-วิธีเอาตัวรอดจากยุค [[ai]] ครองโลก
+วิธีเอาตัวรอดจากยุค [[ai|AI]] ครองโลก
 
 **“มองทุกอย่างเป็นระบบ”**
 

@@ -26,4 +26,4 @@ The Zettelkasten (German for "slip box") is a note-taking system developed by so
 
 The [[welcome|digital garden]] concept is deeply inspired by Zettelkasten. Instead of a linear blog, you build a network of interconnected ideas.
 
-See also: [[how-i-take-notes]], [[obsidian-workflow]]
+See also: [[how-i-take-notes|How I Take Notes]], [[obsidian-workflow|Obsidian Workflow]]

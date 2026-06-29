@@ -12,11 +12,11 @@ tags:
 
 ## Main Topics
 
-- [[programming]]
+- [[programming|Programming]]
 - [[tools|Tools]]
-- [[ai]]
+- [[ai|AI]]
 - [[data-science|Data Science]]
 - [[digital-garden|Digital Garden]]
 - [[second-brain|Second Brain]]
-- [[Obsidian]]
+- [[obsidian|Obsidian]]
 - [[javascript|Javascript]]

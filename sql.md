@@ -13,7 +13,7 @@ Playground:
 [SQLiteOnline](https://sqliteonline.com/)
 
 
-- [[sql-select]]
-- [[sql-join]]
-- [[sql-set-operation]]
-- [[sql-subquries]]
+- [[sql-select|SELECT from SQL]]
+- [[sql-join|SQL JOIN]]
+- [[sql-set-operation|Set Operation in SQL]]
+- [[sql-subquries|Subquries in SQL]]

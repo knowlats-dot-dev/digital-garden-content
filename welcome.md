@@ -11,10 +11,10 @@ This is a place where ideas grow, connect, and evolve. Unlike a blog, notes here
 
 ## What is a Digital Garden?
 
-A digital garden is a collection of notes, thoughts, and ideas that are interconnected. Think of it less like a blog (chronological, polished) and more like a personal [[wiki]] where ideas link to each other.
+A digital garden is a collection of notes, thoughts, and ideas that are interconnected. Think of it less like a blog (chronological, polished) and more like a personal [[wiki|Wiki]] where ideas link to each other.
 
 ## Where to Start
 
-- [[how-i-take-notes]] — my note-taking philosophy
-- [[zettelkasten-method]] — the system behind the garden
-- [[obsidian-workflow]] — how I use Obsidian to write these notes
+- [[how-i-take-notes|How I Take Notes]] — my note-taking philosophy
+- [[zettelkasten-method|Zettelkasten Method]] — the system behind the garden
+- [[obsidian-workflow|Obsidian Workflow]] — how I use Obsidian to write these notes

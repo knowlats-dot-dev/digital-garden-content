@@ -7,6 +7,6 @@ tags:
 **Artificial intelligence** (AI) is a branch of computer science that simulates human cognitive function such as learning, problem-solving, decision-making, and creativity using machines
 
 
-[[gemini]]
+[[gemini|Gemini]]
 
-[[prompt-engineering]]
+[[prompt-engineering|Prompt Engineering]]

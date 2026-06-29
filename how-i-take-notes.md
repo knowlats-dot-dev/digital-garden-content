@@ -12,15 +12,15 @@ My note-taking process has evolved significantly over the years. Here's how it w
 
 ## The Workflow
 
-1. **Capture** — I write everything in [[obsidian-workflow]] using a daily note
+1. **Capture** — I write everything in [[obsidian-workflow|Obsidian Workflow]] using a daily note
 2. **Process** — Each evening I turn fleeting notes into permanent atomic notes
 3. **Connect** — I always ask "what does this remind me of?" and add links
 
 ## Tools I Use
 
-- **Obsidian** — for writing and linking (see [[obsidian-workflow]])
+- **Obsidian** — for writing and linking (see [[obsidian-workflow|Obsidian Workflow]])
 - **This digital garden** — for publishing and sharing
-- The [[zettelkasten-method]] underpins all of it
+- The [[zettelkasten-method|Zettelkasten Method]] underpins all of it
 
 ## Why It Works
 

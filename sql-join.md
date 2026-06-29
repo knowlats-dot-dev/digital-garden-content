@@ -6,7 +6,7 @@ tags:
   - database
   - backend
 ---
-Part of [[sql]]
+Part of [[sql|SQL]]
 
 # Join
 

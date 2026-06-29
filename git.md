@@ -9,4 +9,4 @@ tags:
 - [How can I change the author name / email of a commit?](https://www.git-tower.com/learn/git/faq/change-author-name-email)
 
 
-- [[github]]
+- [[github|Github]]

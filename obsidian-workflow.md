@@ -32,4 +32,4 @@ vault/
 
 Since Obsidian uses plain Markdown with `[[wikilinks]]`, notes can be imported directly into this [[welcome|digital garden]] The garden parses `[[wikilinks]]` and builds the same graph you see in Obsidian.
 
-See also: [[how-i-take-notes]],[[zettelkasten-method]]
+See also: [[how-i-take-notes|How I Take Notes]],[[zettelkasten-method|Zettelkasten Method]]

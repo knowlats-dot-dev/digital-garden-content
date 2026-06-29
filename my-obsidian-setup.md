@@ -6,10 +6,10 @@ tags:
   - obsidian
 ---
 
-I use this as a [[second-brain|Second Brain]]  and [[digital-garden]]
+I use this as a [[second-brain|Second Brain]]  and [[digital-garden|Digital Garden]]
 
-[[how-i-take-notes]]
-[[obsidian-workflow]]
+[[how-i-take-notes|How I Take Notes]]
+[[obsidian-workflow|Obsidian Workflow]]
 
 Installed Plugins:
 
