@@ -10,4 +10,4 @@ tags:
 
 อ่านที่ https://rstudio-education.github.io/hopr/
 
-![[Pasted image 20260417223052.png]]
+![[images/Pasted image 20260417223052.png]]

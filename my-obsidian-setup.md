@@ -23,13 +23,13 @@ My Settings:
 
 **Frontmatter Title**
 
-![[Screenshot 2569-03-23 at 14.02.57.png]]
+![[images/Screenshot 2569-03-23 at 14.02.57.png]]
 
 Enable All Features
 
 **Obsidian Plugin: Supercharged Links**
 
-![[Screenshot 2569-03-23 at 14.05.48.png]]
+![[images/Screenshot 2569-03-23 at 14.05.48.png]]
 
 
 And paste file `links.css` in `.obsidian/snippets`
@@ -64,4 +64,4 @@ Adapted code from: https://forum.obsidian.md/t/internal-links-that-display-note-
 
 **Frontmatter Modified Date**
 
-![[Screenshot 2569-03-23 at 14.15.48.png]]
+![[images/Screenshot 2569-03-23 at 14.15.48.png]]

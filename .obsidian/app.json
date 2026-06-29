@@ -3,5 +3,6 @@
     "templates/"
   ],
   "alwaysUpdateLinks": true,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "attachmentFolderPath": "./images"
 }

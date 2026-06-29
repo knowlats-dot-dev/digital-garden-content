@@ -9,11 +9,11 @@ tags:
 
 I created a [[storybook|Storybook]] story contains UI components which used `useNavigation` from Next.js inside. When I run storybook instance, it display error page instead:
 
-![[Screenshot 2569-02-27 at 11.51.42.png]]
+![[images/Screenshot 2569-02-27 at 11.51.42.png]]
 
 In the [Next.js discussion](https://github.com/vercel/next.js/discussions), there is a [discussion](https://github.com/vercel/next.js/discussions/50068) which people talked about it, and I found a solution.
 
-![[Screenshot 2569-02-27 at 11.57.33.png]]
+![[images/Screenshot 2569-02-27 at 11.57.33.png]]
 
 Luckily, I just recently updated Storybook to 10, so I can use this parameter to resolve this.
 
