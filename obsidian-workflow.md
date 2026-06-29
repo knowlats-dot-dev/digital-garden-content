@@ -4,7 +4,7 @@ updated: 2026-06-29T19:16:51+07:00
 tags:
   - note
   - obsidian
-  - digiral-garden
+  - digital-garden
 ---
 
 # Obsidian Workflow

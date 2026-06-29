@@ -3,7 +3,7 @@ title: How I Take Notes
 updated: 2026-06-29T19:15:43+07:00
 tags:
   - note
-  - digiral-garden
+  - digital-garden
 ---
 
 # How I Take Notes

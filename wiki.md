@@ -3,7 +3,7 @@ title: Wiki
 updated: 2026-06-29T19:19:29+07:00
 tags:
   - note
-  - digiral-garden
+  - digital-garden
 ---
 
 # Wiki

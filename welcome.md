@@ -2,7 +2,7 @@
 title: Welcome to My Digital Garden
 updated: 2026-06-29T19:18:39+07:00
 tags:
-  - digiral-garden
+  - digital-garden
 ---
 
 # Welcome to My Digital Garden

@@ -3,7 +3,7 @@ title: Zettelkasten Method
 updated: 2026-06-29T19:19:15+07:00
 tags:
   - note
-  - digiral-garden
+  - digital-garden
 ---
 
 # Zettelkasten Method
