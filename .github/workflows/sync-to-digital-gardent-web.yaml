@@ -1,0 +1,71 @@
+name: Sync Obsidian Vault to Digital Garden Web
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout vault repo
+        uses: actions/checkout@v7
+        with:
+          path: vault
+
+      - name: Checkout digital garden repo
+        uses: actions/checkout@v7
+        with:
+          repository: knowlats-dot-dev/digital-garden
+          ref: main
+          token: ${{ secrets.ASTRO_REPO_TOKEN }}
+          path: web
+
+      - name: Clean old synced content
+        run: |
+          rm -rf web/src/content/notes
+          rm -rf web/public/images
+          mkdir -p web/src/content/notes
+          mkdir -p web/public/images
+
+      - name: Copy markdown files
+        run: |
+          rsync -av \
+            --include='*/' \
+            --include='*.md' \
+            --exclude='*' \
+            vault/ web/src/content/notes/
+
+      - name: Copy images
+        run: |
+          rsync -av \
+            --include='*/' \
+            --include='*.png' \
+            --include='*.jpg' \
+            --include='*.jpeg' \
+            --include='*.webp' \
+            --include='*.gif' \
+            --include='*.svg' \
+            --include='*.avif' \
+            --exclude='*' \
+            vault/images/ web/public/images/
+
+      - name: Commit and push changes
+        run: |
+          cd web
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add src/content/notes public/images
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Sync Obsidian content"
+            git push origin main
+          fi
