@@ -1,10 +1,10 @@
 ---
 title: Top Page
-updated: 2026-06-29T19:24:37+07:00
+updated: 2026-06-30T21:44:12+07:00
 tags:
 ---
 
-## Pages
+## Categories
 
 - [[books|Books]]
 - [[event|Events]]
@@ -18,5 +18,3 @@ tags:
 - [[data-science|Data Science]]
 - [[digital-garden|Digital Garden]]
 - [[second-brain|Second Brain]]
-- [[obsidian|Obsidian]]
-- [[javascript|Javascript]]

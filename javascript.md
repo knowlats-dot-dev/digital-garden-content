@@ -2,6 +2,7 @@
 title: Javascript
 updated: 2026-02-27T11:46:02+07:00
 tags:
+  - programming
 ---
 
 - [[react|React]]

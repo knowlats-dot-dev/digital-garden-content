@@ -1,10 +1,13 @@
 ---
 title: Tools
-updated: 2026-04-18T01:28:00+07:00
+updated: 2026-06-30T21:41:51+07:00
 ---
+- [[obsidian|Obsidian]]
+-  [[git|Git]]
 - [[linux|Linux Commands]]
-- [[git|Git]]
 - [[vs-code-extension|VS Code Extension]]
 - [[google-sheet|Google Sheet]]
 - [[tools-opa|Open Policy Agent]]
 - [[tools-novu|NOVU]]
+- [[kafka|Kafka]]
+- [[keycloak|Keycloak]]

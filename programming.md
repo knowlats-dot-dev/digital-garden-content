@@ -1,13 +1,19 @@
 ---
 title: Programming
-updated: 2026-04-20T07:50:42+07:00
+updated: 2026-06-30T21:42:54+07:00
 tags:
 ---
-Language
+Languages:
 
 - [[sql|SQL]]
+- [[javascript|JavaScript]]
+- [[java|Java]]
 - [[r-programming|R programming]]
 
+Frameworks:
+
+- [[react|React]]
+- [[java-spring|Spring]]
 
 Subject:
 
