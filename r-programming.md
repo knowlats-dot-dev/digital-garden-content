@@ -448,11 +448,11 @@ Load built-in data set
 > data()
 ```
 
-![[images/Screenshot 2026-04-17 212844.png]]
+![](images/Screenshot 2026-04-17 212844.png)
 
 ในที่นี้เราจะใช้ `USArrests`
 
-![[images/Screenshot 2026-04-17 213654.png]]
+![](images/Screenshot 2026-04-17 213654.png)
 
 เราจะทำงานกับ Data Set นี้กัน
 
@@ -471,7 +471,7 @@ Load built-in data set
 [1] 21.232
 ```
 
-![[images/Pasted image 20260417215322.png]]
+![](images/Pasted image 20260417215322.png)
 
 หากต้องการหา Mean ของทุกคอลัมน์ เราจะไม่รันคำสั่งเรียง ๆ กันอย่างนี้แน่ ๆ
 
@@ -570,7 +570,7 @@ Note:
 
 เราสามารถติดตั้ง Library ผ่าน R Studio ในแท็บ Packages
 
-![[images/Screenshot 2026-04-17 230255.png]]
+![](images/Screenshot 2026-04-17 230255.png)
 
 ดู Packages เต็ม ๆ ได้ที่ https://cran.r-project.org/web/packages/available_packages_by_name.html
 
@@ -603,7 +603,7 @@ View(people)
 
 เราจะได้ Data Frame พร้อมใช้งาน
 
-![[images/Screenshot 2026-04-18 014140.png]]
+![](images/Screenshot 2026-04-18 014140.png)
 
 ## Read CSV file
 
@@ -630,7 +630,7 @@ people <- read_csv("file.csv")
 
 ตัวอย่างไฟล์
 
-![[students.xlsx]]
+![](students.xlsx)
 
 
 ```

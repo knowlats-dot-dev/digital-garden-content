@@ -267,11 +267,11 @@ https://en.wikipedia.org/wiki/Moneyball_(film)
 
 https://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram
 
-![[images/Pasted image 20260314211340.png]]
+![](images/Pasted image 20260314211340.png)
 
 	ถ้าอยากจะเป็น Data Science ต้องไม่หยุดเรียนรู้
 
 
 ## บริษัทไม่ได้ต้องการ Data  เขาต้องการ Insight
 
-![[images/Screenshot 2026-03-14 213159.png]]
+![](images/Screenshot 2026-03-14 213159.png)
