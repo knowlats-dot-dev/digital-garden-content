@@ -15,7 +15,7 @@ tags:
 - [Naked Statistics](https://www.amazon.com/gp/product/B007Q6XLF2) by Charles Wheelan (ชื่อไทย: สถิติฉบับเซ็กซี่)
 - [Everybody Lie](https://www.amazon.com/Everybody-Lies-Internet-About-Really/dp/0062390856/ref=tmm_hrd_swatch_0)
 - [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
-  ![](images/Pasted image 20260417223052.png)
+  ![](images/homework-hands-on-programming-with-r-image.png)
 - [R for Data Science](https://r4ds.had.co.nz/transform.html)
-    ![](images/Pasted image 20260419231625.png)
+    ![](images/recommend-books-for-data-science-books-books-list-for-data-science-dat.png)
 - 

@@ -10,4 +10,4 @@ tags:
 
 อ่านที่ https://rstudio-education.github.io/hopr/
 
-![](images/Pasted image 20260417223052.png)
+![](images/homework-hands-on-programming-with-r-image.png)

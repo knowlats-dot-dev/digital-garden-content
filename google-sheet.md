@@ -106,11 +106,11 @@ Step
 
 These access data from external URL - Need to be allow access before proceed. The imported data are not editable.
 
-![](images/Pasted image 20260324003032.png)
+![](images/google-sheet-import-data.png)
 
 Try edit = insert new data to that cell then the import data are invalid.(Maybe `#REF!` meaning if can not import data because there is a cell that is not empty)
 
-![](images/Pasted image 20260324003305.png)
+![](images/google-sheet-import-data-2.png)
 
 Example Resources (For Experiment)
 - [https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html](https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html)
@@ -122,7 +122,7 @@ Example Resources (For Experiment)
 
   `=COUNTIFS(range_to_check, condition, range_to_check2, condition2, ...)`
   
-![](images/Pasted image 20260324004758.png)
+![](images/google-sheet-countifs.png)
 
 As the example, the result is 5.
 
@@ -136,9 +136,9 @@ As the example, the result is 5.
 
 ในการทำงาน Data Analysis เรามีการใช้ filter เพื่อกรองหรือดึงเฉพาะข้อมูลที่เราต้องการมาทำงาน 
 
-เราสามารถกด filter ผ่านทาง UI ได้ โดยการเลือกคอลัทน์ที่ต้องการและกด ![](images/Pasted image 20260324011824.png) มันก็จะขึ้นแบบนี้ เราสามารถกดเพิ่มได้ว่าจะกรองข้อมูลไหน
+เราสามารถกด filter ผ่านทาง UI ได้ โดยการเลือกคอลัทน์ที่ต้องการและกด ![](images/google-sheet-filter-2.png) มันก็จะขึ้นแบบนี้ เราสามารถกดเพิ่มได้ว่าจะกรองข้อมูลไหน
 
-![](images/Pasted image 20260324011934.png)
+![](images/google-sheet-filter-3.png)
 
 ถ้าเราต้องการ filter ข้อมูลเอามาแสดงแยกจากตารางเดิม หรือใช้เงื่อนไขที่ซับซ้อน เราต้องใช้สูตร
 
@@ -146,20 +146,20 @@ As the example, the result is 5.
 
 range สามารถตั้งชื่อแบบนี้ได้ด้วย ด้วยการลากตลุมตาราง แล้วพิมพ์แทนที่ range ที่มุมซ้ายนั้น
 
-![](images/Pasted image 20260324012144.png)
+![](images/google-sheet-filter-4.png)
 
 
-![](images/Pasted image 20260324012437.png)
+![](images/google-sheet-filter-5.png)
 
-![](images/Pasted image 20260324012521.png)
+![](images/google-sheet-filter-6.png)
 
 ตัวอย่างจากพี่ทอย
 
-![](images/Pasted image 20260324005813.png)
+![](images/google-sheet-filter.png)
 
 ## SORT
 
-เราสามาถกด  ![](images/Pasted image 20260324011824.png) เหมือนกับ Filter เพื่อเรียงข้อมูลตามคอลัมน์ได้เลย แตุ่ถ้าาจะใช้สูตรก็มีเหมือนกัน
+เราสามาถกด  ![](images/google-sheet-filter-2.png) เหมือนกับ Filter เพื่อเรียงข้อมูลตามคอลัมน์ได้เลย แตุ่ถ้าาจะใช้สูตรก็มีเหมือนกัน
 
 `=SORT(range_table, range_column_to_sort, TRUE if want ASC, range_column2_to_sort, TRUE if want ASC)`
 
